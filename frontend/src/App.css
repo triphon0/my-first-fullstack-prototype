@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  min-height: 100vh; /* full viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  /* Background image */
+  background-image: url('./images/sciComp.png'); /* path relative to App.css */
+  background-size: cover;    /* cover the entire div */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* optional: makes it stay during scroll */
+  
+  color: white; /* text color to contrast with background */
+}
